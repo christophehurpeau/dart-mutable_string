@@ -1,0 +1,9 @@
+name: mutable_string
+version: 0.1.0
+author: Christophe Hurpeau <christophe@hurpeau.com>
+description: do things on mutable strings
+dependencies:
+  multi_reg_exp: '>=0.1.1'
+#  multi_reg_exp:
+#    path: ../multi_reg_exp/
+  unittest: '>=0.8.7'
