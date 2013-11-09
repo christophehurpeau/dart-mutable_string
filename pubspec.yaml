@@ -1,9 +1,15 @@
 name: mutable_string
-version: 0.1.0
+version: 0.1.1
 author: Christophe Hurpeau <christophe@hurpeau.com>
 description: do things on mutable strings
+homepage: https://github.com/christophehurpeau/dart-mutable_string
+documentation: https://github.com/christophehurpeau/dart-mutable_string/wiki
+
+environment:
+  sdk: ">=0.8.10+6 <2.0.0"
+
 dependencies:
-  multi_reg_exp: '>=0.1.1'
+  multi_reg_exp: '>=0.1.2 <0.2.0'
 #  multi_reg_exp:
 #    path: ../multi_reg_exp/
-  unittest: '>=0.8.7'
+  unittest: '>=0.9.0 <0.10.0'
