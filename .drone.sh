@@ -4,14 +4,14 @@ dart --version
 pub get
 
 echo "\n> Ensure that the code is warning free"
-dartanalyzer lib/mutable_string.dart
-dartanalyzer test/test.dart
+dartanalyzer lib/mutable_string.dart || exit 1
+dartanalyzer test/test.dart || exit 1
 
 echo "\n> Run tests"
-dart --enable-type-checks --enable-asserts test/test.dart
+dart --enable-type-checks --enable-asserts test/test.dart || exit 1
 
 #echo "> Run build"
-#pub build
+#pub build || exit 1
 
 echo "\n> Generate docs"
 dartdoc lib/mutable_string.dart --package-root=packages
