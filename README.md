@@ -2,4 +2,4 @@
 
 Mutable String: keep a reference to a nobject which contains a changeable string.
 
-See the [auto-generated docs](http://christophehurpeau.github.io/dart-injectable_application/docs/mutable_string.html)
+See the [auto-generated docs](http://christophehurpeau.github.io/dart-mutable_string/docs/mutable_string.html)
