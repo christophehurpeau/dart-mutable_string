@@ -3,7 +3,7 @@ author: Christophe Hurpeau <christophe@hurpeau.com>
 version: 0.2.0
 homepage: https://github.com/christophehurpeau/dart-mutable_string
 description: Do things on mutable strings
-documentation: https://github.com/christophehurpeau/dart-mutable_string/wiki
+documentation: http://christophehurpeau.github.io/dart-mutable_string/
 environment:
   sdk: '>=1.1.0 <2.0.0'
 dependencies:
