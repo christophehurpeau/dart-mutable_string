@@ -1,0 +1,1 @@
+{"name":"dart:","description":"Dart System Libraries","libraries":[{"name":"package:multi_reg_exp/multi_reg_exp.dart","refId":"multi_reg_exp"},{"refId":"mutable_string"}],"revision":"0","location":"0","dependencies":[]}
