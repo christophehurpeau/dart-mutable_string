@@ -1,6 +1,6 @@
 name: mutable_string
 author: Christophe Hurpeau <christophe@hurpeau.com>
-version: 0.2.0
+version: 0.2.0+1
 homepage: https://github.com/christophehurpeau/dart-mutable_string
 description: Do things on mutable strings
 documentation: http://christophehurpeau.github.io/dart-mutable_string/
@@ -8,4 +8,5 @@ environment:
   sdk: '>=1.1.0 <2.0.0'
 dependencies:
   multi_reg_exp: '>=0.2.0 <0.3.0'
+dev_dependencies:
   unittest: '>=0.10.0 <0.11.0'
